@@ -1,5 +1,5 @@
 @import "./variables.css";
-@import "./components/Footer/footer.css";
+@import "/components/Footer/footer.css";
 @import "./layout/mainLayout.css";
 
 body {
