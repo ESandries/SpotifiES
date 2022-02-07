@@ -1,0 +1,36 @@
+.extraControls {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.extraControls--Container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 60%;
+}
+
+.extraControls--volume {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 0 1 125px;
+}
+
+.extraControls--volumenIcon {
+  width: 1rem;
+}
+
+.extraControls--volumeProgress {
+  height: 0.3rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: var(--dark-light);
+}
+@media (max-width: 600px) {
+  .extraControls {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.nowListening {
+  display: flex;
+  align-items: center;
+  min-width: 11.25rem;
+  width: 30%;
+}
+
+.nowListening--image {
+  display: flex;
+}
+
+.nowListening--image img {
+  height: 100%;
+}
+
+.nowListening--description {
+  display: grid;
+  padding-inline: 14px;
+}
+
+.nowListening--Name {
+  font: var(--basefont-bold);
+  margin: 0;
+}
+
+.nowListening--Artist {
+  color: var(--dark-light);
+  font: var(--smallfont);
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+@import "./variables.css";
+@import "./components/Footer/footer.css";
+@import "./layout/mainLayout.css";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
